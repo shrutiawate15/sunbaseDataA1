@@ -1,0 +1,103 @@
+
+/* .upper-btn-box{
+    width: 50%;
+    height: 70px;
+    
+    
+} */
+.upper-btn-box .btn-box{
+    /* width: 50%;
+    height: 30%; */
+    display: flex; 
+}
+.upper-btn-box .btn-box button{
+    border: none;
+    outline: none;
+    background-color: #4286F5;
+    color: #fff;
+}
+
+.table-box{
+    width: 100%;
+    padding: 30px;
+    
+}
+.table-box table{
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    /* border-left: none;
+    border-right: none; */
+    
+}
+.table-box table tr th{
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.table-box table tr td{
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+    
+}
+.table-box table tr td button{
+    width: 35%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.modal{
+    width: 38%;
+    height: 400px;
+    background-color: rgb(235, 232, 232);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 20px groove #4286F5;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+.modal.active{
+    opacity: 1;
+    z-index: 1;
+   
+}
+.modal .close-icon{
+    position: absolute;
+    right: -25px;
+    top: -45px;
+    font-size: 20px;
+    padding: 10px;
+    color: #EE534f;
+}
+.modal .input-box {
+    width: 10%;
+    display: flex;
+}
+
+.modal .input-box label{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.modal .input-box input{
+    
+    margin: 25px 20px;
+}
+
+.modal .input-box button{
+    /* width: 48%; */
+    border: none;
+    outline: none;
+    background-color: #4286F5;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 10px;
+    right: 0;
+    
+}
